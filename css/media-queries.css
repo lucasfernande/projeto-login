@@ -25,6 +25,7 @@ Typical Device Breakpoints:
 
     section#login {
         width: 80vw;
+        height: 90vh;
     }
 
     section#login > div#img {
@@ -42,7 +43,7 @@ Typical Device Breakpoints:
 @media screen and (min-width: 992px) {
 
     body {
-        background-image: linear-gradient(to top, var(--verde), var(--lilas));
+        background: linear-gradient(to top, var(--verde), var(--lilas));
     }
 
     section#login {
@@ -50,13 +51,21 @@ Typical Device Breakpoints:
     }
 
     section#login > div#img {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#form {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#form > h1 {
+        font-size: 2em;
+    }
+
+    div#form > p {
+        font-size: 1.1em;
     }
 }
