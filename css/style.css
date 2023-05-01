@@ -64,3 +64,8 @@ div#form > p {
     text-align: justify;
 }
 
+
+div#form > form span {
+    vertical-align: middle;
+}
+
