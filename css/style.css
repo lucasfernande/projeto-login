@@ -80,7 +80,7 @@ div.campo > label {
 }
 
 div.campo > span {
-    width: 35px;
+    width: 34.9px;
     text-align: center;
     color: white;
 }
@@ -88,7 +88,7 @@ div.campo > span {
 div.campo > input {
     border: 0;
     height: 100%;
-    width: calc(100% - 39px);
+    width: calc(100% - 39.1px);
     outline: 0;
     box-sizing: border-box;
     padding: 5px;
